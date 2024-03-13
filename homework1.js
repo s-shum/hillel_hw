@@ -70,3 +70,11 @@ console.log((+null == false) < 1 ** 5);
  1 ** 5 --> 1 в п'ятій степені буде 1
  true<1 --> false , бо true=1, відповідно 1<1 false
 */
+
+console.log(null == null);
+
+let age = 11;
+let a = 11;
+if (age == 16 || a == 17) {
+  console.log("U can take part time job");
+}
